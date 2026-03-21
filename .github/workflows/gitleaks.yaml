@@ -30,7 +30,7 @@ jobs:
         run: |
           gitleaks detect \
             --source . \
-            --config .gitleaks.toml \
+            --config custom-rules.toml \
             --report-format json \
             --report-path gitleaks-report.json \
             --redact \
